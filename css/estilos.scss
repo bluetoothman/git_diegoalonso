@@ -317,3 +317,18 @@ footer {
     margin-left: 0;
   }
 }
+
+@media screen and (max-width: 425px) {
+    .containergrid .content {
+      grid-column: 1/-1; /*Abarca todas las columnas*/
+    }
+  
+    aside,
+    .listaproductos,
+    .mapbox,
+    #contactData {
+      grid-column: 1/-1;
+      width: 95%;
+      margin-left: 0;
+    }
+  }
